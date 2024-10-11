@@ -3,3 +3,26 @@
     font-weight: bold;
     letter-spacing: 0.05em;
 }
+
+ul {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+}
+
+.todo-list-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0;
+}
+.close {
+    color: red;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    transition: color 0.5s linear;
+}
+.close:hover {
+    color: tomato;
+}

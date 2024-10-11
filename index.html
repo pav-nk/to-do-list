@@ -19,16 +19,16 @@
     </header>
     <main>
         <div class="container container-sm">
-            <form class="mb-3">
+            <form class="mb-3" id="todo-form">
                 <div class="row g-3 mb-3">
                     <div class="col">
                         <label for="task-input" class="form-label">Enter the name of the task</label>
-                        <input type="text" id="task-input" class="form-control" placeholder="...">
+                        <input type="text" id="task-input" name="todo" class="form-control" placeholder="...">
                     </div>
                     <div class="col">
                         <label for="user-select" class="form-label">User select menu</label>
-                        <select id="user-select" class="form-select">
-                            <option>user-1</option>
+                        <select id="user-select" class="form-select" name="user">
+                            <option disabled selected>select user</option>
                         </select>
                     </div>
                 </div>
